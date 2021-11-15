@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background: #1d1e22;
+  color: #717790;
+  font: 15px/1.5 Monaco, MonoSpace;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.console {
+  background: #1d1e22;
+  color: #717790;
+  font: 15px/1.5 Monaco, MonoSpace;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+#message, #debug, #error {
+  text-align: center;
+}
+
+#output {
+  font: 15px/1.5 Monaco, MonoSpace;
+  outline: 0px solid transparent;
+  margin: 0;
+}
+
+#output:focus {
+  outline: 1px solid #717790;
+}
+
+#error {
+  background: #290000;
+  color: #ff8080;
+  border-bottom: solid 1px #5c0000;
+}
+
+#debug {
+  border-bottom: solid 1px #717790;
+}
+
+#log {
+  border-bottom: solid 1px #717790;
+}
+
